@@ -1,11 +1,18 @@
 {
-    "extends": ["airbnb-base","prettier", "plugin:node/recommended"],
-    "plugins": ["prettier"],
-    "rules": {
-        "no-unused-vars": "off",
-        "no-console": "off",
-        "prettier/prettier": "error",
-        "func-names":"off",
-        "no-process-exit":"off"
-    }
+  "extends": ["airbnb-base", "prettier", "plugin:node/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "no-unused-vars": "off",
+    "no-console": "off",
+    "prettier/prettier": "error",
+    "func-names": "off",
+    "no-process-exit": "off",
+    "no-param-reassign": "off",
+    "no-const-assign": "off",
+    "node/no-unpublished-require": "off",
+    "global-require": "off"
+  },
+  "env": {
+    "jest": true
+  }
 }

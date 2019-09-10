@@ -1,0 +1,11 @@
+{
+  "name": "jest-starter",
+  "version": "0.1.0",
+  "description": "The jest testing starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Xiang Tan",
+  "license": "MIT"
+}

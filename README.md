@@ -211,4 +211,5 @@ module.exports = server;
 - testing: `dummy` database
 
 
-[sth](https://medium.com/@qjli/how-to-mock-specific-module-function-in-jest-715e39a391f4)
+## Reference
+[Override Function to Mock Traps](https://medium.com/@qjli/how-to-mock-specific-module-function-in-jest-715e39a391f4)
